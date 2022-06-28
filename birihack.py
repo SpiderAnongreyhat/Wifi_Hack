@@ -68,7 +68,7 @@ class NetworkAddress:
     def __eq__(self, other):
         return self.integer == other.integer
 
-    def __ne__(self, other):
+    def __ne__(self, other): 
         return self.integer != other.integer
 
     def __lt__(self, other):
